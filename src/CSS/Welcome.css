@@ -1,0 +1,58 @@
+@keyframes reduce-spacing {
+    0% {
+        letter-spacing: 100%;
+
+    }
+
+    100% {
+        letter-spacing: 0%;
+
+    }
+}
+
+@keyframes reduce-spacing-mobile {
+    0% {
+        letter-spacing: 100%;
+
+    }
+
+    100% {
+        letter-spacing: 0;
+
+    }
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+
+    }
+
+    100% {
+        opacity: 0;
+
+    }
+}
+
+/* Intro animation */
+
+
+
+
+/* end */
+
+
+
+.animate-out {
+    animation: reduce-spacing 0.5s forwards;
+
+}
+
+.animate-out-mobile {
+    animation: reduce-spacing-mobile 0.5s forwards;
+}
+
+.disappear {
+    animation: fade-out 1.5s forwards;
+
+}

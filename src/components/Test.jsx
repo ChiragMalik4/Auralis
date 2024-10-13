@@ -5,7 +5,9 @@ import useViewportHeight from "../constants/viewportHeight";
 import { ScrollContainer, ScrollPage } from "react-scroll-motion";
 import Headphones from "../constants/headphones.js";
 import Earbuds from "../constants/earbuds.js";
-import Neckbands from "../constants/neckbands.js";
+import Speakers from "../constants/speakers.js";
+import Soundbars from "../constants/soundbars.js";
+import MusicPlayers from "../constants/musicplayers.js";
 import ScrollPageWithAnimation from "./ScrollPageContainer.jsx";
 import ShopCards from "./ShopCards.jsx";
 import STAY1 from "../assets/Sounds/interstellar/1.wav";
@@ -96,7 +98,7 @@ const Test = () => {
           STAYsound={STAY3}
           WhiteContainerTitle={"Neckbands"}
         >
-          {Neckbands.slice(0, isLgOrSmaller ? 3 : 6).map((items) => (
+          {MusicPlayers.slice(0, isLgOrSmaller ? 3 : 6).map((items) => (
             <ShopCards
               key={items.name}
               title={items.name}
@@ -122,7 +124,7 @@ const Test = () => {
           STAYsound={STAY4}
           WhiteContainerTitle={"Speakers"}
         >
-          {Headphones.slice(0, isLgOrSmaller ? 3 : 6).map((items) => (
+          {Speakers.slice(0, isLgOrSmaller ? 3 : 6).map((items) => (
             <ShopCards
               key={items.name}
               title={items.name}
@@ -142,12 +144,13 @@ const Test = () => {
           extraHeight={(400 * viewportHeight) / 100}
           backgroundColor1="bg-gray-300"
           backgroundColor2="bg-black"
-          word="NECKBANDS"
+          word="SOUNDBARS"
           image={earbuds}
           whitecontainerleft={true}
           STAYsound={STAY5}
+          WhiteContainerTitle={"Soundbars"}
         >
-          {Headphones.slice(0, isLgOrSmaller ? 3 : 6).map((items) => (
+          {Soundbars.slice(0, isLgOrSmaller ? 3 : 6).map((items) => (
             <ShopCards
               key={items.name}
               title={items.name}
@@ -167,20 +170,11 @@ const Test = () => {
           extraHeight={(500 * viewportHeight) / 100}
           backgroundColor1="bg-gray-300"
           backgroundColor2="bg-black"
-          word="NECKBANDS"
-          image={earbuds}
+          word="COMING SOON"
           whitecontainerleft={false}
           STAYsound={STAY6}
-        >
-          {Headphones.slice(0, isLgOrSmaller ? 3 : 6).map((items) => (
-            <ShopCards
-              key={items.name}
-              title={items.name}
-              price={items.price}
-              img={items.img}
-            />
-          ))}
-        </ScrollPageWithAnimation>
+          WhiteContainerTitle={"Coming Soon"}
+        ></ScrollPageWithAnimation>
       </ScrollPage>
 
       <div className="relative min-h-[100vh] bg-black"></div>
@@ -192,20 +186,11 @@ const Test = () => {
           extraHeight={(600 * viewportHeight) / 100}
           backgroundColor1="bg-gray-300"
           backgroundColor2="bg-black"
-          word="NECKBANDS"
-          image={earbuds}
+          word="COMING SOON"
           whitecontainerleft={true}
           STAYsound={STAY7}
-        >
-          {Headphones.slice(0, isLgOrSmaller ? 3 : 6).map((items) => (
-            <ShopCards
-              key={items.name}
-              title={items.name}
-              price={items.price}
-              img={items.img}
-            />
-          ))}
-        </ScrollPageWithAnimation>
+          WhiteContainerTitle={"Coming Soon"}
+        ></ScrollPageWithAnimation>
       </ScrollPage>
 
       <div className="relative min-h-[100vh] bg-black"></div>
@@ -217,20 +202,11 @@ const Test = () => {
           extraHeight={(700 * viewportHeight) / 100}
           backgroundColor1="bg-gray-300"
           backgroundColor2="bg-black"
-          word="NECKBANDS"
-          image={earbuds}
+          word="COMING SOON"
           whitecontainerleft={false}
           STAYsound={STAY8}
-        >
-          {Headphones.slice(0, isLgOrSmaller ? 3 : 6).map((items) => (
-            <ShopCards
-              key={items.name}
-              title={items.name}
-              price={items.price}
-              img={items.img}
-            />
-          ))}
-        </ScrollPageWithAnimation>
+          WhiteContainerTitle={"Coming Soon"}
+        ></ScrollPageWithAnimation>
       </ScrollPage>
 
       <div className="relative min-h-[100vh] bg-black"></div>

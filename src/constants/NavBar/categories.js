@@ -15,18 +15,18 @@ export const Categories = [
       },
       {
         id: 103,
-        title: "Neckbands",
-        url: "",
+        title: "Music Players",
+        url: "/music-players",
       },
       {
         id: 104,
         title: "Speakers",
-        url: "",
+        url: "/speakers",
       },
       {
         id: 105,
         title: "Soundbars",
-        url: "",
+        url: "/soundbars",
       },
     ],
   },

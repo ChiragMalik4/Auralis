@@ -5,7 +5,7 @@ import h26 from "../assets/Products/h26.jpeg";
 import h5 from "../assets/Products/h5.jpeg";
 import h31 from "../assets/Products/h31.jpeg";
 
-const headphones = [
+const Headphones = [
   {
     id: 1,
     name: "Auralis WH-CH510",
@@ -44,4 +44,4 @@ const headphones = [
   },
 ];
 
-export default headphones;
+export default Headphones;

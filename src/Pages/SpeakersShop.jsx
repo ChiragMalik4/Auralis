@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "../components/Nav";
-import earbudsList from "../constants/CategoriesShop/earbudsList.js";
+import speakersList from "../constants/CategoriesShop/speakersList.js";
 import ShopCards from "../components/ShopCards";
 import Footer from "../components/Footer";
 import ShoppingCartSidebar from "../components/CartSidebar";
@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 import { Howl } from "howler";
 import hover_sound from "../assets/Sounds/SND02_piano/button.wav";
 
-const EarbudsShop = () => {
+const SpeakersShop = () => {
   const hoverSound = new Howl({
     src: [hover_sound],
     volume: 0.5,
@@ -45,13 +45,13 @@ const EarbudsShop = () => {
       <div className="h-[400px] w-full ">
         <div className="h-full w-full flex justify-center items-center bg-gray-300">
           <h1 className="text-black font-bold text-5xl lg:text-6xl xl:text-7xl uppercase mt-16">
-            Earbuds
+            Speakers
           </h1>
         </div>
       </div>
       <div className="flex bg-gray-300 justify-center items-center">
         <div className="w-full lg:w-[80%] flex justify-center items-center flex-wrap gap-[4rem]">
-          {earbudsList.map((items) => (
+          {speakersList.map((items) => (
             <>
               <Shopcardsmobile
                 key={items.id}
@@ -79,4 +79,4 @@ const EarbudsShop = () => {
   );
 };
 
-export default EarbudsShop;
+export default SpeakersShop;

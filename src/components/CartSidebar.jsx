@@ -75,9 +75,11 @@ const ShoppingCartSidebar = () => {
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        <div className="p-4">
+        <div className="p-4 h-full">
           <h2 className="text-lg font-semibold">Shopping Cart</h2>
-          <p className="mt-4">Shopping Cart is Empty</p>
+          <div className="flex justify-center items-center h-full">
+            <p className="mt-4 text-center">Shopping Cart is Empty</p>
+          </div>
         </div>
       </div>
     </div>

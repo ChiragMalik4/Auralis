@@ -44,8 +44,7 @@ import h42 from "../../assets/Products/h42.jpeg";
 import h43 from "../../assets/Products/h43.jpeg";
 import h44 from "../../assets/Products/h44.jpeg";
 
-// Create the headphones array
-const headphones = [
+const HeadphonesList = [
   {
     id: 1,
     name: "Auralis WH-CH510",
@@ -144,4 +143,4 @@ const headphones = [
   },
 ];
 
-export default headphones;
+export default HeadphonesList;

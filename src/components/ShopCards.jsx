@@ -2,7 +2,6 @@ import React from "react";
 import { delay, motion } from "framer-motion";
 import hover_sound from "../assets/Sounds/Others/ShopCards.mp3";
 import { Howl } from "howler";
-import axios from "axios";
 import "../CSS/Card.css";
 
 const ShopCards = ({ id, img, title, price }) => {
@@ -42,10 +41,11 @@ const ShopCards = ({ id, img, title, price }) => {
       whileInView="visible"
       className="w-[200px] lg:w-[220px] h-[280px] md:h-[280px] xl:w-[250px] xl:h-[330px] card group relative overflow-hidden cursor-pointer"
       onMouseEnter={playHoverSound}
+      key={id}
     >
       <span className="bg w-[190px] lg:w-[210px] h-[270px] md:h-[270px] xl:w-[240px] xl:h-[320px] flex flex-col items-center">
         <div className="relative w-[98%] h-[60%] lg:h-[60%] xl:h-[60%] bg-gray-300 rounded-lg ">
-          <img src={img} alt="" />
+          <img src={img} alt={title} className="h-full w-full object-cover" />
         </div>
         <div className="relative h-[30%] w-[96%] top-2">
           <h1 className=" relative text-black uppercase font-bold text-[0.9rem]">

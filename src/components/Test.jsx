@@ -48,6 +48,7 @@ const Test = () => {
                 id={items.id}
                 title={items.name}
                 price={items.price}
+                img={items.img}
               />
             ))}
           </ScrollPageWithAnimation>
@@ -74,6 +75,7 @@ const Test = () => {
               id={items.id}
               title={items.name}
               price={items.price}
+              img={items.img}
             />
           ))}
         </ScrollPageWithAnimation>
@@ -99,6 +101,7 @@ const Test = () => {
               key={items.name}
               title={items.name}
               price={items.price}
+              img={items.img}
             />
           ))}
         </ScrollPageWithAnimation>
@@ -124,6 +127,7 @@ const Test = () => {
               key={items.name}
               title={items.name}
               price={items.price}
+              img={items.img}
             />
           ))}
         </ScrollPageWithAnimation>
@@ -148,6 +152,7 @@ const Test = () => {
               key={items.name}
               title={items.name}
               price={items.price}
+              img={items.img}
             />
           ))}
         </ScrollPageWithAnimation>
@@ -172,6 +177,7 @@ const Test = () => {
               key={items.name}
               title={items.name}
               price={items.price}
+              img={items.img}
             />
           ))}
         </ScrollPageWithAnimation>
@@ -196,6 +202,7 @@ const Test = () => {
               key={items.name}
               title={items.name}
               price={items.price}
+              img={items.img}
             />
           ))}
         </ScrollPageWithAnimation>
@@ -220,6 +227,7 @@ const Test = () => {
               key={items.name}
               title={items.name}
               price={items.price}
+              img={items.img}
             />
           ))}
         </ScrollPageWithAnimation>

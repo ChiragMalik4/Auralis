@@ -12,7 +12,7 @@ export const NavigationItems = [
       {
         id: 102,
         title: "Earbuds",
-        url: "",
+        url: "/earbuds",
       },
       {
         id: 103,

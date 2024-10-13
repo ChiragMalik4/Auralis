@@ -11,7 +11,7 @@ export const Categories = [
       {
         id: 102,
         title: "Earbuds",
-        url: "",
+        url: "/earbuds",
       },
       {
         id: 103,

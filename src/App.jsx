@@ -3,6 +3,7 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import SignUp from "./Pages/SignUp";
 import Login from "./Pages/Login";
 import HeadphonesShop from "./Pages/HeadphonesShop";
+import EarbudsShop from "./Pages/EarbudsShop";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/sign-up" element={<SignUp />} />
         <Route path="/Log-in" element={<Login />} />
         <Route path="/headphones" element={<HeadphonesShop />} />
+        <Route path="/earbuds" element={<EarbudsShop />} />
       </Routes>
     </Router>
   );

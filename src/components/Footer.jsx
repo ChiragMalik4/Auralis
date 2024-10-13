@@ -52,7 +52,7 @@ const Footer = ({ bgcolor, textcolor }) => {
   };
 
   return (
-    <footer className={` ${bgcolor} ${textcolor} py-8`} ref={footerRef}>
+    <footer className={`${bgcolor} ${textcolor} py-8`} ref={footerRef}>
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Shop Section */}
         <div>
@@ -209,7 +209,7 @@ const Footer = ({ bgcolor, textcolor }) => {
                   height={42}
                   width={42}
                 />
-                <span class="absolute z-1 opacity-0 lg:group-hover:opacity-100 lg:group-hover:text-black lg:group-hover:text-sm lg:group-hover:font-bold lg:group-hover:-translate-y-10 lg:duration-700">
+                <span className="absolute z-1 opacity-0 lg:group-hover:opacity-100 lg:group-hover:text-black lg:group-hover:text-sm lg:group-hover:font-bold lg:group-hover:-translate-y-10 lg:duration-700">
                   {item.title}
                 </span>
               </a>

@@ -1,39 +1,46 @@
+import h34 from "../assets/Products/h34.jpeg";
+import h43 from "../assets/Products/h43.jpeg";
+import h17 from "../assets/Products/h17.jpeg";
+import h26 from "../assets/Products/h26.jpeg";
+import h5 from "../assets/Products/h5.jpeg";
+import h31 from "../assets/Products/h31.jpeg";
+
 const headphones = [
   {
     id: 1,
     name: "Auralis WH-CH510",
     price: "₹2,999",
-    img: "https://example.com/auralis_wh_ch510.jpg",
+    img: h34,
   },
   {
     id: 2,
     name: "Auralis T460BT",
     price: "₹3,199",
-    img: "https://example.com/auralis_t460bt.jpg",
+    img: h43,
   },
   {
     id: 3,
     name: "Auralis Rockerz 450",
     price: "₹1,499",
-    img: "https://example.com/auralis_rockerz_450.jpg",
+    img: h17,
   },
   {
     id: 4,
-    name: "Auralis Buds 2",
+    name: "Auralis Focus 2",
     price: "₹2,499",
-    img: "https://example.com/auralis_buds_wireless_2.jpg",
+    img: h26,
   },
   {
     id: 5,
     name: "Auralis ProBass",
     price: "₹1,299",
-    img: "https://example.com/auralis_probass.jpg",
+    img: h5,
   },
   {
     id: 6,
     name: "Auralis Echo 300",
     price: "₹4,499",
-    img: "https://example.com/auralis_echo_300.jpg",
+    img: h31,
   },
 ];
 

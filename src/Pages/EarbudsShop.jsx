@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 import { Howl } from "howler";
 import hover_sound from "../assets/Sounds/SND02_piano/button.wav";
 
-const HeadphonesShop = () => {
+const EarbudsShop = () => {
   const hoverSound = new Howl({
     src: [hover_sound],
     volume: 0.5,
@@ -45,7 +45,7 @@ const HeadphonesShop = () => {
       <div className="h-[400px] w-full ">
         <div className="h-full w-full flex justify-center items-center bg-gray-300">
           <h1 className="text-black font-bold text-5xl lg:text-6xl xl:text-7xl uppercase mt-16">
-            Headphones
+            Earbuds
           </h1>
         </div>
       </div>
@@ -79,4 +79,4 @@ const HeadphonesShop = () => {
   );
 };
 
-export default HeadphonesShop;
+export default EarbudsShop;

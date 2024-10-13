@@ -44,8 +44,8 @@ const Shopcardsmobile = ({ id, img, title, price }) => {
       onMouseEnter={playHoverSound}
     >
       <span className="bg w-[98%] h-[190px] flex items-center">
-        <div className=" w-[50%] h-[190px] bg-gray-300 rounded-lg ">
-          <img src={img} alt="" />
+        <div className=" w-[50%] h-[190px] bg-gray-300 rounded-lg flex justify-center items-center">
+          <img src={img} alt={title} className="object-cover" />
         </div>
         <div className=" relative flex flex-col pt-4 h-[190px] w-[50%]">
           <h1 className=" relative text-black uppercase font-bold text-[0.9rem] px-2">

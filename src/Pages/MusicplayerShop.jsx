@@ -1,4 +1,4 @@
-import React from "react";
+import { useEffect } from "react";
 import Nav from "../components/Nav";
 import MusicPlayersList from "../constants/CategoriesShop/musicplayersList.js";
 import ShopCards from "../components/ShopCards";
@@ -10,8 +10,19 @@ import AuralisLogoWhite from "../assets/Logo/transparent.png";
 import { Link } from "react-router-dom";
 import { Howl } from "howler";
 import hover_sound from "../assets/Sounds/SND02_piano/button.wav";
+import Render_Sound from "../assets/Sounds/interstellar/RenderSound.wav";
 
 const MusicplayersShop = () => {
+  const RenderSound = new Howl({
+    src: [Render_Sound],
+    volume: 0.5,
+    preload: true,
+  });
+
+  useEffect(() => {
+    RenderSound.play();
+  }, []);
+
   const hoverSound = new Howl({
     src: [hover_sound],
     volume: 0.5,
@@ -44,7 +55,7 @@ const MusicplayersShop = () => {
       </div>
       <div className="h-[400px] w-full ">
         <div className="h-full w-full flex justify-center items-center bg-gray-300">
-          <h1 className="text-black font-bold text-5xl lg:text-6xl xl:text-7xl uppercase mt-16">
+          <h1 className="text-black text-center font-bold text-4xl lg:text-6xl xl:text-7xl uppercase mt-16">
             Portable Music Players
           </h1>
         </div>

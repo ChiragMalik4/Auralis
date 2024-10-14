@@ -1,7 +1,19 @@
+import { useEffect } from "react";
 import "../CSS/SignUp.css";
 import { Link } from "react-router-dom";
+import Render_Sound from "../assets/Sounds/SND01_sine/transition_up.wav";
 
 const Login = () => {
+  const RenderSound = new Howl({
+    src: [Render_Sound],
+    volume: 0.5,
+    preload: true,
+  });
+
+  useEffect(() => {
+    RenderSound.play();
+  }, []);
+
   return (
     <div className="min-h-[100vh] min-w-[100vw] flex justify-center items-center overflow-hidden">
       <div className="relative">

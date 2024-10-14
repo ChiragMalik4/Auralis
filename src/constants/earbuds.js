@@ -1,7 +1,7 @@
-import b1 from "../assets/Products/b1.jpeg";
-import b2 from "../assets/Products/b2.jpeg";
+import b17 from "../assets/Products/b17.jpeg";
+import b18 from "../assets/Products/b18.jpeg";
 import b3 from "../assets/Products/b3.jpeg";
-import b4 from "../assets/Products/b4.jpeg";
+import b19 from "../assets/Products/b19.jpeg";
 import b5 from "../assets/Products/b5.jpeg";
 import b6 from "../assets/Products/b6.jpeg";
 
@@ -10,13 +10,13 @@ const Earbuds = [
     id: 1,
     name: "Auralis Buds Elite",
     price: "₹1,999",
-    img: b1,
+    img: b17,
   },
   {
     id: 2,
     name: "Auralis AirPods Lite",
     price: "₹2,499",
-    img: b2,
+    img: b18,
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const Earbuds = [
     id: 4,
     name: "Auralis Buds Pro",
     price: "₹3,499",
-    img: b4,
+    img: b19,
   },
   {
     id: 5,

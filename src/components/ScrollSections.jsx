@@ -1,7 +1,9 @@
-import { useRef, useState, useEffect } from "react";
-import headphones from "../assets/Hero/hero3.png";
-import earbuds from "../assets/Hero/hero4.png";
-import useViewportHeight from "../constants/viewportHeight";
+import headphones from "../assets/Products/h8transparent.png";
+import earbuds from "../assets/Products/b9transparent.png";
+import musicplayer from "../assets/Products/mp20transparent.png";
+import speakers from "../assets/Products/s8.jpeg";
+import soundbar from "../assets/Products/sb4transparent.png";
+import useViewportHeight from "../constants/viewportHeight.jsx";
 import { ScrollContainer, ScrollPage } from "react-scroll-motion";
 import Headphones from "../constants/headphones.js";
 import Earbuds from "../constants/earbuds.js";
@@ -21,7 +23,7 @@ import STAY8 from "../assets/Sounds/interstellar/8.wav";
 import { useMediaQuery } from "react-responsive";
 import Footer from "./Footer.jsx";
 
-const Test = () => {
+const ScrollSection = () => {
   const viewportHeight = useViewportHeight();
   const isLgOrSmaller = useMediaQuery({ query: "(max-width: 640px)" });
 
@@ -92,11 +94,11 @@ const Test = () => {
           extraHeight={(200 * viewportHeight) / 100}
           backgroundColor1="bg-gray-300"
           backgroundColor2="bg-black"
-          word="NECKBANDS"
-          image={earbuds}
+          word="MUSIC PLAYER"
+          image={musicplayer}
           whitecontainerleft={true}
           STAYsound={STAY3}
-          WhiteContainerTitle={"Neckbands"}
+          WhiteContainerTitle={"MUSIC PLAYER"}
         >
           {MusicPlayers.slice(0, isLgOrSmaller ? 3 : 6).map((items) => (
             <ShopCards
@@ -119,7 +121,7 @@ const Test = () => {
           backgroundColor1="bg-gray-300"
           backgroundColor2="bg-black"
           word="SPEAKERS"
-          image={earbuds}
+          image={speakers}
           whitecontainerleft={false}
           STAYsound={STAY4}
           WhiteContainerTitle={"Speakers"}
@@ -145,7 +147,7 @@ const Test = () => {
           backgroundColor1="bg-gray-300"
           backgroundColor2="bg-black"
           word="SOUNDBARS"
-          image={earbuds}
+          image={soundbar}
           whitecontainerleft={true}
           STAYsound={STAY5}
           WhiteContainerTitle={"Soundbars"}
@@ -211,10 +213,10 @@ const Test = () => {
 
       <div className="relative min-h-[100vh] bg-black"></div>
       <div className="relative">
-        <Footer bgcolor="bg-gray-300" textcolor="text-black" />
+        <Footer bgcolor="bg-gray-300" textcolor="text-black" IsSound />
       </div>
     </ScrollContainer>
   );
 };
 
-export default Test;
+export default ScrollSection;

@@ -7,12 +7,12 @@ import STAY9 from "../assets/Sounds/interstellar/9.wav";
 import hover_sound from "../assets/Sounds/SND01_sine/button.wav";
 import tap_sound from "../assets/Sounds/SND01_sine/tap_01.wav";
 
-const Footer = ({ bgcolor, textcolor }) => {
+const Footer = ({ bgcolor, textcolor, IsSound }) => {
   const footerRef = useRef(null);
   const Isinview = useInView(footerRef, { amount: 0.1 });
 
   useEffect(() => {
-    if (Isinview) {
+    if (Isinview && IsSound) {
       containerSound.play();
     }
   }, [Isinview]);

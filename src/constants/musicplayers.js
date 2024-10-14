@@ -1,23 +1,22 @@
-// Import images
-import mp1 from "../assets/Products/mp1.jpeg";
-import mp2 from "../assets/Products/mp2.jpeg";
+import mp20 from "../assets/Products/mp20.jpeg";
+import mp19 from "../assets/Products/mp19.jpeg";
 import mp3 from "../assets/Products/mp3.jpeg";
-import mp4 from "../assets/Products/mp4.jpeg";
+import mp21 from "../assets/Products/mp21.jpeg";
 import mp5 from "../assets/Products/mp5.jpeg";
-import mp6 from "../assets/Products/mp6.jpeg";
+import mp24 from "../assets/Products/mp24.jpeg";
 
 const MusicPlayers = [
   {
     id: 1,
     name: "Auralis Pocket Player",
     price: "₹4,499",
-    img: mp1,
+    img: mp20,
   },
   {
     id: 2,
     name: "Auralis Retro Player",
     price: "₹3,999",
-    img: mp2,
+    img: mp19,
   },
   {
     id: 3,
@@ -29,7 +28,7 @@ const MusicPlayers = [
     id: 4,
     name: "Auralis Mini Player",
     price: "₹2,999",
-    img: mp4,
+    img: mp21,
   },
   {
     id: 5,
@@ -41,7 +40,7 @@ const MusicPlayers = [
     id: 6,
     name: "Auralis Travel Player",
     price: "₹3,499",
-    img: mp6,
+    img: mp24,
   },
 ];
 

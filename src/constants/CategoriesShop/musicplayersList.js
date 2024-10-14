@@ -1,33 +1,31 @@
-// Import images
-import mp1 from "../../assets/Products/mp1.jpeg";
-import mp2 from "../../assets/Products/mp2.jpeg";
 import mp3 from "../../assets/Products/mp3.jpeg";
-import mp4 from "../../assets/Products/mp4.jpeg";
 import mp5 from "../../assets/Products/mp5.jpeg";
-import mp6 from "../../assets/Products/mp6.jpeg";
 import mp7 from "../../assets/Products/mp7.jpeg";
 import mp8 from "../../assets/Products/mp8.jpeg";
 import mp9 from "../../assets/Products/mp9.jpeg";
 import mp10 from "../../assets/Products/mp10.jpeg";
 import mp11 from "../../assets/Products/mp11.jpeg";
 import mp12 from "../../assets/Products/mp12.jpeg";
-import mp13 from "../../assets/Products/mp13.jpeg";
-import mp14 from "../../assets/Products/mp14.jpeg";
-import mp15 from "../../assets/Products/mp15.jpeg";
 import mp16 from "../../assets/Products/mp16.jpeg";
+import mp18 from "../../assets/Products/mp18.jpeg";
+import mp19 from "../../assets/Products/mp19.jpeg";
+import mp20 from "../../assets/Products/mp20.jpeg";
+import mp21 from "../../assets/Products/mp21.jpeg";
+import mp22 from "../../assets/Products/mp22.jpeg";
+import mp24 from "../../assets/Products/mp24.jpeg";
 
 const MusicPlayersList = [
   {
     id: 1,
     name: "Auralis Pocket Player",
     price: "₹4,499",
-    img: mp1,
+    img: mp20,
   },
   {
     id: 2,
     name: "Auralis Retro Player",
     price: "₹3,999",
-    img: mp2,
+    img: mp19,
   },
   {
     id: 3,
@@ -39,7 +37,7 @@ const MusicPlayersList = [
     id: 4,
     name: "Auralis Mini Player",
     price: "₹2,999",
-    img: mp4,
+    img: mp21,
   },
   {
     id: 5,
@@ -51,7 +49,7 @@ const MusicPlayersList = [
     id: 6,
     name: "Auralis Travel Player",
     price: "₹3,499",
-    img: mp6,
+    img: mp24,
   },
   {
     id: 7,
@@ -93,22 +91,17 @@ const MusicPlayersList = [
     id: 13,
     name: "Auralis Studio Pro Player",
     price: "₹8,199",
-    img: mp13,
+    img: mp18,
   },
   {
     id: 14,
     name: "Auralis Pocket Hi-Fi",
     price: "₹7,999",
-    img: mp14,
+    img: mp22,
   },
+
   {
     id: 15,
-    name: "Auralis SoundWave Player",
-    price: "₹6,299",
-    img: mp15,
-  },
-  {
-    id: 16,
     name: "Auralis Urban Player",
     price: "₹4,799",
     img: mp16,

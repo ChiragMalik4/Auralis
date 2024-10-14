@@ -1,5 +1,5 @@
 import h34 from "../assets/Products/h34.jpeg";
-import h43 from "../assets/Products/h43.jpeg";
+import h19 from "../assets/Products/h19.jpeg";
 import h17 from "../assets/Products/h17.jpeg";
 import h26 from "../assets/Products/h26.jpeg";
 import h5 from "../assets/Products/h5.jpeg";
@@ -16,7 +16,7 @@ const Headphones = [
     id: 2,
     name: "Auralis T460BT",
     price: "₹3,199",
-    img: h43,
+    img: h19,
   },
   {
     id: 3,

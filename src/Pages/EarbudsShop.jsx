@@ -1,4 +1,4 @@
-import React from "react";
+import { useEffect } from "react";
 import Nav from "../components/Nav";
 import earbudsList from "../constants/CategoriesShop/earbudsList.js";
 import ShopCards from "../components/ShopCards";
@@ -10,8 +10,19 @@ import AuralisLogoWhite from "../assets/Logo/transparent.png";
 import { Link } from "react-router-dom";
 import { Howl } from "howler";
 import hover_sound from "../assets/Sounds/SND02_piano/button.wav";
+import Render_Sound from "../assets/Sounds/interstellar/RenderSound.wav";
 
 const EarbudsShop = () => {
+  const RenderSound = new Howl({
+    src: [Render_Sound],
+    volume: 0.5,
+    preload: true,
+  });
+
+  useEffect(() => {
+    RenderSound.play();
+  }, []);
+
   const hoverSound = new Howl({
     src: [hover_sound],
     volume: 0.5,

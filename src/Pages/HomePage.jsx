@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Welcome from "../components/Welcome";
 import Hero from "../components/Hero";
-import Test from "../components/Test";
+import ScrollSection from "../components/ScrollSections";
 
 const HomePage = () => {
   const [ShowWelcome, setShowWelcome] = useState(true);
@@ -18,7 +18,7 @@ const HomePage = () => {
         <>
           <Hero />
 
-          <Test />
+          <ScrollSection />
         </>
       )}
     </div>

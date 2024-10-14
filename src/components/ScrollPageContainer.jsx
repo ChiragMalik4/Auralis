@@ -98,14 +98,14 @@ const ScrollPageWithAnimation = ({
             <div className="h-full flex items-center">
               <VerticalWord
                 word={word}
-                classname="absolute text-[4rem] font-bold"
+                classname="absolute text-[4rem] font-bold z-2"
                 letterspace="my-[3rem]"
               />
 
               <motion.img
                 src={image}
                 alt=""
-                className="z-1"
+                className="z-1 object-cover h-[50%]"
                 initial={{ opacity: 0, x: 100 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{
@@ -129,13 +129,13 @@ const ScrollPageWithAnimation = ({
             <div className="h-full flex items-center">
               <VerticalWord
                 word={word}
-                classname="absolute text-[4rem] font-bold right-0"
+                classname="absolute text-[4rem] font-bold right-0 z-2"
                 letterspace="my-[3rem]"
               />
               <motion.img
                 src={image}
                 alt=""
-                className="z-1"
+                className="z-1 object-cover h-[50%]"
                 initial={{ opacity: 0, x: -100 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{

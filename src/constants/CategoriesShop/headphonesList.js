@@ -55,7 +55,7 @@ const HeadphonesList = [
     id: 2,
     name: "Auralis T460BT",
     price: "₹3,199",
-    img: h43,
+    img: h19,
   },
   {
     id: 3,

@@ -39,7 +39,7 @@ export const NavigationItems = [
   {
     id: "3",
     title: "Contact",
-    url: "",
+    url: "/contact",
   },
   {
     id: "4",

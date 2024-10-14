@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <>
       <div className="h-[100vh] w-[100vw] flex flex-col gap-y-10 justify-center items-center ">
-        <h1 className="text-4xl font-bold text-white">
+        <h1 className="text-4xl font-bold text-center text-white">
           Website Made by Chirag Malik
         </h1>
 

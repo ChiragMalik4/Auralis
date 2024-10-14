@@ -57,13 +57,13 @@ const Nav = () => {
         >
           Coming Up
         </Link>
-        <a
-          href=""
+        <Link
+          to="/contact"
           className="hover:text-gray-400 relative z-20"
           onMouseEnter={playHoverSound}
         >
           Contact
-        </a>
+        </Link>
       </nav>
 
       <div className="fixed top-[40px] text-white right-[8rem] uppercase text-[11px] font-bold hidden lg:block z-20">

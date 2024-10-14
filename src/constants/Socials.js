@@ -7,13 +7,13 @@ export const Socials = [
   {
     id: "0",
     title: "Github",
-    url: "https://github.com/ChiragMalik4/SideQuest",
+    url: "https://github.com/ChiragMalik4",
     img: Github,
   },
   {
     id: "1",
     title: "Instagram",
-    url: "https://www.instagram.com/?next=%2F",
+    url: "https://www.instagram.com/chiragmalik442",
     img: Instagram,
   },
   {

@@ -7,6 +7,7 @@ import EarbudsShop from "./Pages/EarbudsShop";
 import MusicplayersShop from "./Pages/MusicplayerShop";
 import SpeakersShop from "./Pages/SpeakersShop";
 import SoundbarsShop from "./Pages/SoundbarsShop";
+import Contact from "./Pages/Contact";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/music-players" element={<MusicplayersShop />} />
         <Route path="/speakers" element={<SpeakersShop />} />
         <Route path="/soundbars" element={<SoundbarsShop />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   );

@@ -1,5 +1,4 @@
 import b3 from "../../assets/Products/b3.jpeg";
-
 import b5 from "../../assets/Products/b5.jpeg";
 import b6 from "../../assets/Products/b6.jpeg";
 import b7 from "../../assets/Products/b7.jpeg";
@@ -9,7 +8,6 @@ import b10 from "../../assets/Products/b10.jpeg";
 import b11 from "../../assets/Products/b11.jpeg";
 import b12 from "../../assets/Products/b12.jpeg";
 import b13 from "../../assets/Products/b13.jpeg";
-
 import b15 from "../../assets/Products/b15.jpeg";
 import b16 from "../../assets/Products/b16.jpeg";
 import b17 from "../../assets/Products/b17.jpeg";

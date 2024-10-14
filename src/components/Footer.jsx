@@ -60,7 +60,7 @@ const Footer = ({ bgcolor, textcolor, IsSound }) => {
           <ul className="space-y-2">
             <li>
               <Link
-                to="/products/headphones"
+                to="/headphones"
                 className="hover:text-gray-700"
                 onMouseEnter={playHoverSound}
                 onClick={playTapSound}
@@ -70,7 +70,7 @@ const Footer = ({ bgcolor, textcolor, IsSound }) => {
             </li>
             <li>
               <Link
-                to="/products/earbuds"
+                to="/earbuds"
                 className="hover:text-gray-700"
                 onMouseEnter={playHoverSound}
                 onClick={playTapSound}
@@ -80,17 +80,17 @@ const Footer = ({ bgcolor, textcolor, IsSound }) => {
             </li>
             <li>
               <Link
-                to="/products/neckbands"
+                to="/music-players"
                 className="hover:text-gray-700"
                 onMouseEnter={playHoverSound}
                 onClick={playTapSound}
               >
-                Neckbands
+                Music Players
               </Link>
             </li>
             <li>
               <Link
-                to="/products/speakers"
+                to="/speakers"
                 className="hover:text-gray-700"
                 onMouseEnter={playHoverSound}
                 onClick={playTapSound}
@@ -100,22 +100,12 @@ const Footer = ({ bgcolor, textcolor, IsSound }) => {
             </li>
             <li>
               <Link
-                to="/products/soundbars"
+                to="/soundbars"
                 className="hover:text-gray-700"
                 onMouseEnter={playHoverSound}
                 onClick={playTapSound}
               >
                 Soundbars
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/products/party-speakers"
-                className="hover:text-gray-700"
-                onMouseEnter={playHoverSound}
-                onClick={playTapSound}
-              >
-                Party Speakers
               </Link>
             </li>
           </ul>
